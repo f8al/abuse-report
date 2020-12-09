@@ -18,7 +18,7 @@ def getAbuse(domain):
     return abuse_email['abuse']
 
 def send_report(abuseContact:str,domain:str):
-    port = 25  # For starttls
+    port = 465  # For starttls
     smtp_server = "smtp.google.com"
     sender_email = "abuse@org.com""
     receiver_email = abuse_email
