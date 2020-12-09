@@ -1,4 +1,4 @@
-#!/bin/env .\Scripts\python.exe
+#!/bin/env python3
 
 from abuse_finder import domain_abuse
 import sys
